@@ -6,23 +6,23 @@ import pprint
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from src.blockchain_ledger import BlockchainLedger
+from src.blockchain_ledger import UKTransparencyBlockchain
 from src.nlp_explainer import NLPExplainer
 
 
 def main():
     ledger_path = ROOT / "data" / "example_ledger.csv"
-    lb = BlockchainLedger(str(ledger_path))
+    lb = UKTransparencyBlockchain()
     print("Appending two records to ledger...")
-    lb.append_record({"applicant": "Alice", "decision": "approve"})
-    lb.append_record({"applicant": "Bob", "decision": "decline", "note": "Missing documents"})
-    ok, bad = lb.verify_integrity()
-    print("Ledger ok:", ok, "first_bad:", bad)
+    lb.add_decision("approve", "example-algorithm", "Example-Dept", "low")
+    lb.add_decision("decline", "example-algorithm", "Example-Dept", "low")
+    ok = lb.validate_chain()
+    print("Ledger ok:", ok)
 
     text = "Applicant flagged for possible fraud and missing documents"
     print("Explanation for text:")
     explainer = NLPExplainer()
-    pprint.pprint(explainer.explain(text))
+    pprint.pprint(explainer.explain_decision(text))
 
 
 if __name__ == "__main__":

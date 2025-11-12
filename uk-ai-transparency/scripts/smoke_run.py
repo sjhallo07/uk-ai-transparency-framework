@@ -6,8 +6,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / 'src'
 sys.path.insert(0, str(SRC))
 
-from blockchain_ledger import UKTransparencyBlockchain
-from nlp_explainer import NLPExplainer
+from src.blockchain_ledger import UKTransparencyBlockchain
+from src.nlp_explainer import NLPExplainer
 
 print('Initializing blockchain and explainer...')
 blk = UKTransparencyBlockchain()

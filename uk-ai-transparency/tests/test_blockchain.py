@@ -5,7 +5,7 @@ import os
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from blockchain_ledger import UKTransparencyBlockchain
+from src.blockchain_ledger import UKTransparencyBlockchain
 
 class TestBlockchain(unittest.TestCase):
     def setUp(self):
@@ -16,7 +16,7 @@ class TestBlockchain(unittest.TestCase):
             os.remove(ledger_path)
         except Exception:
             pass
-        self.blockchain = UKTransparencyBlockchain(ledger_path)
+        self.blockchain = UKTransparencyBlockchain()
     
     def test_chain_initialization(self):
         """Test blockchain initializes with genesis block"""
