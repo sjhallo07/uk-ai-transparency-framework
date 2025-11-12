@@ -2,7 +2,7 @@
 
 An immutable blockchain system for tracking and explaining UK government automated decisions with NLP-powered transparency.
 I am making this contribution to show that I want to use the unconditional firm that was approved for me; I need to find a sponsor.
-This is just a demo, but very soon I will make it for real use    autor Marcos Mora unconditional firm of heriot-watt university Msc computer cience
+This is just a demo, but very soon I will make it for REAL use with very few resources using different types of APIs and libraries to collect data, and most importantly, in a very ethical way using the best practices like Robots.txt and training algorithms with supervised and unsupervised learning and auto-scalable what I intend to demonstrate with this is efficiency with few resources without using expensive equipment, a computer with 4GB of RAM, since this project will be developed using free resources, showing efficiency and lower public spending  autor Marcos Mora unconditional firm of heriot-watt university Msc computer cience
 ## 🚀 Features
 
 - **🔗 Immutable Blockchain** - Secure decision registry using cryptographic hashing
