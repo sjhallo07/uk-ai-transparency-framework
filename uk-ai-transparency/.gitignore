@@ -1,6 +1,4 @@
-env/
-dist/
-# Python
+# Ignore Python, venv, IDE, and build artifacts
 __pycache__/
 *.py[cod]
 *$py.class
@@ -54,32 +52,18 @@ ipython_config.py
 
 # Environment
 .env
-.venv
-env/
+.venv/
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
+.venv311/
 
-# IDE
+# VSCode
 .vscode/
-.idea/
-*.swp
-*.swo
-*~
 
-# Streamlit
-.streamlit/
-
-# Data
-*.db
-*.sqlite3
-*.sqlite
-
-# Logs
-*.log
-logs/
-
-# OS
-.DS_Store
+# Windows
 Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
