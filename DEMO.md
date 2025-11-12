@@ -29,7 +29,8 @@ streamlit run uk-ai-transparency/src/transparency_dashboard.py
 ## 🖼️ Demo Screenshots
 
 
-> _Below is a real dashboard screenshot. To show your actual dashboard, replace `uk-ai-transparency/docs/dashboard_home.png` with a screenshot of your running Streamlit app._
+
+> _Below is a placeholder for the original dashboard. The real interactive dashboard function is coming soon!_
 
 ![Dashboard Home](uk-ai-transparency/docs/dashboard_home.png)
 
