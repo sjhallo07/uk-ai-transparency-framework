@@ -1,0 +1,7 @@
+decision_id,department,algorithm_used,decision_text,impact_level,citizen_facing
+1,NHS,risk-assessment,"Patient priority classification for treatment",high,Yes
+2,DWP,eligibility-check,"Benefits eligibility determination",medium,Yes
+3,HMRC,fraud-detection,"Tax return anomaly detection",high,No
+4,Local-Gov,resource-allocation,"School funding allocation",medium,Yes
+5,UK-Border,security-screening,"Travel authorization decision",high,Yes
+6,Environment-Agency,prediction-model,"Flood risk assessment",medium,No
