@@ -1,7 +1,8 @@
 # 🇬🇧 UK AI Transparency Framework
 
 An immutable blockchain system for tracking and explaining UK government automated decisions with NLP-powered transparency.
-
+I am making this contribution to show that I want to use the unconditional firm that was approved for me; I need to find a sponsor.
+This is just a demo, but very soon I will make it for real use    autor Marcos Mora unconditional firm of heriot-watt university Msc computer cience
 ## 🚀 Features
 
 - **🔗 Immutable Blockchain** - Secure decision registry using cryptographic hashing
