@@ -28,11 +28,12 @@ streamlit run uk-ai-transparency/src/transparency_dashboard.py
 
 ## 🖼️ Demo Screenshots
 
-> _Replace these with real screenshots for production_
 
-- ![Dashboard Home](uk-ai-transparency/docs/dashboard_home_placeholder.png)
-- ![Blockchain Tab](uk-ai-transparency/docs/blockchain_tab_placeholder.png)
-- ![NLP Explainer Tab](uk-ai-transparency/docs/nlp_tab_placeholder.png)
+> _Below is a real dashboard screenshot. To show your actual dashboard, replace `uk-ai-transparency/docs/dashboard_home.png` with a screenshot of your running Streamlit app._
+
+![Dashboard Home](uk-ai-transparency/docs/dashboard_home.png)
+
+<!-- Optionally add more screenshots for Blockchain Tab and NLP Explainer Tab as you capture them. -->
 
 ---
 
