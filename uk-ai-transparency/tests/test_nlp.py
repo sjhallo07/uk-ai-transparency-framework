@@ -7,7 +7,7 @@ sys.path.insert(0, str(ROOT))
 
 from src.nlp_explainer import NLPExplainer
 
-explain_text_decision = NLPExplainer().explain_text_decision
+explain_text_decision = lambda text: NLPExplainer().explain_text_decision(text)
 
 
 def test_keywords_found():

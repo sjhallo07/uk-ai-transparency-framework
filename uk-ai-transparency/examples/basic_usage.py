@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from src.blockchain_ledger import BlockchainLedger
-from src.nlp_explainer import explain_text_decision
+from src.nlp_explainer import NLPExplainer
 
 
 def main():
@@ -21,7 +21,8 @@ def main():
 
     text = "Applicant flagged for possible fraud and missing documents"
     print("Explanation for text:")
-    pprint.pprint(explain_text_decision(text))
+    explainer = NLPExplainer()
+    pprint.pprint(explainer.explain(text))
 
 
 if __name__ == "__main__":
