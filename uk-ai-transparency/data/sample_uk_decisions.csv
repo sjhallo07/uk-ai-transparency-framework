@@ -5,3 +5,19 @@ decision_id,department,algorithm_used,decision_text,impact_level,citizen_facing
 4,Local-Gov,resource-allocation,"School funding allocation",medium,Yes
 5,UK-Border,security-screening,"Travel authorization decision",high,Yes
 6,Environment-Agency,prediction-model,"Flood risk assessment",medium,No
+
+1001,NHS,news-article,"Failed by the NHS on chronic fatigue illness | Letters. See: https://www.theguardian.com/world/2025/oct/03/failed-by-the-nhs-on-chronic-fatigue-illness",high,Yes
+1002,NHS,news-article,"Why the NHS doctors’ strikes look set to continue. See: https://www.theguardian.com/society/2025/nov/14/why-the-nhs-doctors-strikes-look-set-to-continue",high,Yes
+1003,NHS,news-article,"Offer cancer patients exercise on NHS, major charity urges. See: https://www.theguardian.com/society/2025/oct/25/offer-cancer-patients-exercise-on-nhs-major-charity-urges",medium,Yes
+1004,DWP,news-article,"Disabled woman killed herself after DWP mistakenly withdrew benefits. See: https://www.theguardian.com/society/2025/jun/02/disabled-woman-killed-herself-after-dwp-mistakenly-withdrew-benefits",high,Yes
+1005,DWP,news-article,"DWP to overhaul carer’s allowance checks after overpayment scandal. See: https://www.theguardian.com/society/2025/apr/15/dwp-overhaul-carers-allowance-checks-overpayment-scandal",medium,Yes
+1006,DWP,news-article,"Unpaid carer wins overpayment penalty case against DWP. See: https://www.theguardian.com/society/2025/feb/12/unpaid-carer-wins-overpayment-penalty-case-against-dwp",medium,Yes
+1007,NHS,risk-assessment,"NHS medical negligence liabilities hit £60bn amid surge in maternity payouts. See: https://www.theguardian.com/society/2025/oct/17/nhs-medical-negligence-liabilities-hit-60bn-amid-surge-in-maternity-payouts",high,Yes
+1008,NHS,resource-allocation,"Physiotherapy care in decline because of poor NHS facilities, poll shows. See: https://www.theguardian.com/society/2025/oct/27/physiotherapy-care-in-decline-because-of-poor-nhs-facilities-poll-shows",medium,Yes
+1009,DWP,eligibility-check,"Disability benefit cuts to hit 700,000 families already in poverty, DWP forecasts show. See: https://www.theguardian.com/society/2025/may/07/disability-benefit-cuts-to-hit-700000-families-already-in-poverty-dwp-forecasts-show",high,Yes
+1010,NHS,risk-assessment,"A good deal struck for the NHS | Brief letters. See: https://www.theguardian.com/society/2025/nov/12/nhs-in-scotland-led-the-way-on-private-hospital-takeovers",medium,Yes
+1011,HMRC,fraud-detection,"Automated tax return anomaly flagged for review",high,No
+1012,Local-Gov,planning-algorithm,"Denied planning permission for new supermarket",medium,Yes
+1013,NHS,triage-ai,"AI recommended urgent care for patient 67890",high,Yes
+1014,Environment-Agency,prediction-model,"Flood risk assessment for region 5 completed",medium,No
+1015,Education,admissions-ai,"University admissions recommendation for applicant 2025-AB12",medium,Yes
