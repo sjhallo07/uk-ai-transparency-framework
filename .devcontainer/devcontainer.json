@@ -1,0 +1,21 @@
+{
+  "name": "Devcontainer Base",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {},
+  "postCreateCommand": "true",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "ms-python.python"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "containerUser": "vscode",
+  "updateContentCommand": "",
+  "shutdownAction": "stopContainer",
+  "waitFor": "onCreateCommand"
+}
